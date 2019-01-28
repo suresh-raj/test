@@ -1,0 +1,85 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+
+}
+#circle-main{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 0.2rem solid  rgb(102, 187, 161);
+    background-color: rgb(6, 160, 114);
+    box-shadow: 0 0 0.2rem 0.2rem rgb(203, 250, 236);
+    margin: 0.8rem;
+    text-align: center;
+    font: larger bolder;
+    display: inline-flex;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle-small{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.2rem solid  rgb(102, 187, 161);
+    background-color: rgb(6, 160, 114);
+    box-shadow: 0 0 0.2rem 0.2rem rgb(203, 250, 236);
+    margin: 0.4rem;
+    text-align: center;
+    font: bolder larger serif;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#circle-add{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    border: 0.2rem solid  rgb(102, 187, 161);
+    background-color: rgb(6, 160, 114);
+    box-shadow: 0 0 0.2rem 0.2rem rgb(203, 250, 236);
+    margin: 0.8rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+
+}
+#header{
+    width: 60%;
+    height: 20%;
+    font: 1rem 200;
+    text-align: center;
+    background-color:  rgba(12, 12, 12, 0.897);
+}
+
+#main{
+    width: 60%;
+    height: 60%;
+    display: block;
+    background-color:  rgba(27, 27, 27, 0.897);
+    overflow: auto;
+
+}
+#aside{
+    width:40%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:  rgba(17, 17, 17, 0.897);
+}
+#footer{
+    width:60%;
+    height: 20%;
+    bottom:0 ;
+    background-color:  rgba(12, 12, 12, 0.897);
+}
+
